@@ -1,0 +1,17 @@
+
+@import "tailwindcss";
+.loading {
+  @apply text-center py-8 text-gray-500;
+}
+
+.error {
+  @apply text-center py-8 text-red-500;
+}
+
+.card {
+  @apply bg-white rounded-lg shadow p-6;
+}
+
+.avatar img {
+  @apply w-24 h-24 rounded-full mx-auto;
+}
